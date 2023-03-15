@@ -8,3 +8,6 @@ db.sqlite3
 .DS_Store
 .env
 .ruff_cache
+handlers_working
+services_working
+.venv
