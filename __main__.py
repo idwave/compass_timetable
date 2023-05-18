@@ -32,7 +32,7 @@ def main() -> None:
         states = {
             CLASS_NAME: [
                 MessageHandler(
-                    filters.Regex("^(1|2|3|4|5|6|7|8|9|10)$"), handlers.choose_class_letter
+                    filters.Regex("^(0|1|2|3|4|5|6|7|8|9|10)$"), handlers.choose_class_letter
                 )
             ],
             CLASS_LETTER: [
